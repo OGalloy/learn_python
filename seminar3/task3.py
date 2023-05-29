@@ -12,7 +12,7 @@ def get_pack(items: dict, backpack_weight: float):
         actual_weight += items[key]
         if actual_weight > backpack_weight:
             return result
-        result.append(items[key])
+        result.append(items [key])
 
 
 
